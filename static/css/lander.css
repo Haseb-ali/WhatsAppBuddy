@@ -100,15 +100,15 @@ button:active{
     text-align: center;
 }
 .create-account-section>span{
-    color:rgb(177, 176, 176);
-    
-    
+    color:rgb(177, 176, 176);   
 }
 .create-account-section>a{
     color:#1eb2a6;
     font-size: 20px;
-
     text-decoration: none;
+}
+.make-border-denger{
+    border-color: #ee2c60!important;
 }
 
 

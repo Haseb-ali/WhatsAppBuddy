@@ -21,11 +21,12 @@
        </div>
        <div class="right-container">
         <div class="form-box">
-            <form>
+            <form action="" method="post" onsubmit="return validateFrom()" id="loginForm">
+                {%csrf_token%}
                 <img src="{%static 'images/iconfinder_boy_403024.png'%}">
                 <input type="text" placeholder="username">
                 <input type="password" placeholder="password">
-                <button type="button">Log in</button>
+                <button type="submit">Log in</button>
                 <div class="create-account-section">
                     <span>Don't have any account?</span>
                     <a href="accounts/singup">Create an account</a>
@@ -36,3 +37,4 @@
     </div>    
 </body>
 </html>
+<script src="{%static 'js/loginvalidation.js'%}"></script>
