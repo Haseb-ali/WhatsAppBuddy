@@ -1,2 +1,2 @@
 # WhatsAppBuddy
-## Microbloggin app
+Microbloggin app
