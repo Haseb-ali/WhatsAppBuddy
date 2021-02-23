@@ -1,3 +1,4 @@
+Swal.fire('Any fool can use a computer');
 let loginForm=document.querySelector("#loginForm");    
 let fieldsArray=[loginForm[1],loginForm[2]];
 const validateFrom=()=>{
